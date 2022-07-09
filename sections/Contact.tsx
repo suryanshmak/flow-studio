@@ -1,8 +1,8 @@
 import Link from "next/link"
 import { useRef } from "react"
 import { FaDiscord } from "react-icons/fa"
-import Input from "../components/Input"
-import Textarea from '../components/Textarea'
+import { TextInput } from "../components/Input"
+import { CustomTextarea } from '../components/Textarea'
 
 export const Contact = () => {
   const emailRef = useRef<HTMLInputElement>();
@@ -38,9 +38,9 @@ export const Contact = () => {
       <div className="space-y-2">
         <p>Email Us:</p>
         <form className="flex flex-col space-y-6 w-full lg:w-[calc(30ch+12vw)]" onSubmit={onFormSubmit}>
-          <Input {...{ placeholder: "johndoe@example.com", type: "email" }} ref={emailRef} />
-          <Input {...{ placeholder: "project name" }} ref={nameRef} />
-          <Textarea {...{ placeholder: "project description" }} ref={descriptionRef} />
+          <TextInput {...{ placeholder: "johndoe@example.com", type: "email" }} ref={emailRef} />
+          <TextInput {...{ placeholder: "project name" }} ref={nameRef} />
+          <CustomTextarea {...{ placeholder: "project description" }} ref={descriptionRef} />
           <button className="border-btn" type="submit">Send</button>
         </form>
       </div>
