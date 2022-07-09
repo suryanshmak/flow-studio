@@ -5,15 +5,16 @@ import { TextInput } from "../components/TextInput"
 import { TextArea } from '../components/TextArea'
 
 export const Contact = () => {
-  const emailRef = useRef<HTMLInputElement>();
-  const nameRef = useRef<HTMLInputElement>();
-  const descriptionRef = useRef<HTMLTextAreaElement>();
+  const emailRef = useRef<HTMLInputElement>(null);
+  const nameRef = useRef<HTMLInputElement>(null);
+  const descriptionRef = useRef<HTMLTextAreaElement>(null);
 
   const onFormSubmit = () => {
-    console.log(emailRef.current.value, nameRef.current.value, descriptionRef.current.value);
-    emailRef.current.value = '';
-    nameRef.current.value = '';
-    descriptionRef.current.value = '';
+    if (emailRef.current && nameRef.current && descriptionRef.current) {
+      emailRef.current.value = '';
+      nameRef.current.value = '';
+      descriptionRef.current.value = '';
+    }
   }
 
   return (
@@ -38,9 +39,9 @@ export const Contact = () => {
       <div className="space-y-2">
         <p>Email Us:</p>
         <form className="flex flex-col space-y-6 w-full lg:w-[calc(30ch+12vw)]" onSubmit={onFormSubmit}>
-          <TextInput {...{ placeholder: "johndoe@example.com", type: "email" }} ref={emailRef} />
-          <TextInput {...{ placeholder: "project name" }} ref={nameRef} />
-          <TextArea {...{ placeholder: "project description" }} ref={descriptionRef} />
+          <TextInput placeholder="johndoe@example.com" type="email" ref={emailRef} />
+          <TextInput placeholder="project name" ref={nameRef} />
+          <TextArea placeholder="project description" ref={descriptionRef} />
           <button className="border-btn" type="submit">Send</button>
         </form>
       </div>

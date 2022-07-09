@@ -42,7 +42,11 @@ html,
 }
 
 .para {
- @apply text-[1rem] md:text-[1.25rem] xl:text-[1.4rem] tracking-wider;
+    @apply text-[1rem] md:text-[1.25rem] xl:text-[1.4rem] tracking-wider;
+}
+
+.input {
+    @apply border-[1px] border-neutral-500 py-3 px-4 bg-[transparent] rounded-lg placeholder-neutral-800 w-full outline-none;
 }
 
 @tailwind utilities;

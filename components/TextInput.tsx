@@ -1,5 +1,12 @@
 import React from "react"
 
-export const TextInput = React.forwardRef<HTMLInputElement>((props, ref) => (
-  <input required={true} ref={ref} {...props} className="border-[1px] border-neutral-500 py-3 px-4 bg-[transparent] rounded-lg text-md placeholder-neutral-800 w-full outline-none" />
+type InputProps = {
+  placeholder: string;
+  type?: string;
+}
+
+export const TextInput = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => (
+  <input required={true} ref={ref} {...props} className="input text-md" />
 ));
+
+TextInput.displayName = "TextInput"
