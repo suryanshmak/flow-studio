@@ -3,11 +3,11 @@ import Image from "next/image";
 export const Team = () => {
   const team = [
     { name: "Jack", role: "UI Designer", src: "/team/jack.png" },
-    { name: "Xodus", role: "graphic designer", src: "/team/suryansh.jpg" },
-    { name: "Kilian", role: "backend dev", src: "/team/neesh.jpg" },
+    { name: "Lenny", role: "graphic designer", src: "/team/xodus.jpg" },
+    { name: "Kilian", role: "backend dev", src: "/team/anonymous.png" },
     { name: "Suryansh", role: "frontend dev", src: "/team/suryansh.jpg" },
-    { name: "Noah", role: "3D designer", src: "/team/jack.png" },
-    { name: "Kanishq", role: "backend dev", src: "/team/neesh.jpg" }
+    { name: "Noah", role: "3D designer", src: "/team/anonymous.png" },
+    { name: "Neesh", role: "backend dev", src: "/team/neesh.jpg" }
   ];
 
   return (
