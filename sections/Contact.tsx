@@ -1,8 +1,8 @@
 import Link from "next/link"
 import { useRef } from "react"
 import { FaDiscord } from "react-icons/fa"
-import { Input } from "../components/Input"
-import { Textarea } from '../components/Textarea'
+import Input from "../components/Input"
+import Textarea from '../components/Textarea'
 
 export const Contact = () => {
   const emailRef = useRef<HTMLInputElement>();
