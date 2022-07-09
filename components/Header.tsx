@@ -9,7 +9,7 @@ export const Header = () => {
           <Image src="/header-img.svg" alt="" height={52} width={52} />
         </a>
       </Link>
-      <nav className="flex items-center space-x-8 grow">
+      <nav className="hidden sm:flex items-center space-x-8 grow">
         <Link href='/#home'>
           <a className="hover:text-neutral-200">Home</a>
         </Link>
@@ -21,7 +21,7 @@ export const Header = () => {
         </Link>
       </nav>
       <Link href="/#contact">
-        <a className="border-btn duration-400">Contact</a>
+        <a className="hidden sm:block border-btn duration-400">Contact</a>
       </Link>
     </header>
   )

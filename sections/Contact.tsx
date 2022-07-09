@@ -18,7 +18,7 @@ export const Contact = () => {
   }
 
   return (
-    <div className="container mx-auto py-[8ch] lg:flex lg:justify-between space-y-6 lg:space-y-0">
+    <div className="px-6 sm:container sm:mx-auto py-[8ch] lg:flex lg:justify-between space-y-6 lg:space-y-0">
       <div className="space-y-6">
         <h1 className="header">
           let's work & connect <br />

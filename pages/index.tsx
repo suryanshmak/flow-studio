@@ -13,7 +13,7 @@ const App: NextPage = () => {
       <Meta />
       <div>
         <Header />
-        <div className='px-[8ch] h-screen flex items-center' id="home" style={{ boxShadow: "inset 0 -80px 80px -10px rgba(45, 179, 255, 0.05)" }}>
+        <div className='px-8 sm:px-[8ch] h-screen flex items-center' id="home" style={{ boxShadow: "inset 0 -80px 80px -10px rgba(45, 179, 255, 0.05)" }}>
           <Home />
         </div>
         <div id="work">
