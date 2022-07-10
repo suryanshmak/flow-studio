@@ -5,13 +5,13 @@ export const Work = () => {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const onWheel = (e: React.WheelEvent) => {
+    const onWheel: (e: any) => void = (e: React.WheelEvent) => {
       e.preventDefault();
 
       if (e.deltaX) return;
       if (e.deltaY !== 0) {
         ref.current?.scrollTo({
-          left: e.deltaY > 0 ? (ref.current.scrollLeft + e.deltaY) : (ref.current.scrollLeft + e.deltaY - 120),
+          left: e.deltaY > 0 ? (ref.current.scrollLeft + e.deltaY) : (ref.current.scrollLeft + e.deltaY),
           behavior: "smooth"
         });
       }
