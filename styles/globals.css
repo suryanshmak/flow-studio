@@ -46,7 +46,7 @@ html,
 }
 
 .input {
-    @apply border-[1px] border-neutral-500 py-3 px-4 bg-[transparent] rounded-lg placeholder-neutral-800 w-full outline-none;
+    @apply border-[1px] border-neutral-500 py-3 px-4 bg-[transparent] rounded-lg placeholder-neutral-700 w-full outline-none;
 }
 
 .burger-line {

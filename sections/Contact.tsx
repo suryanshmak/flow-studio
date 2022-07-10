@@ -21,8 +21,8 @@ export const Contact = () => {
     <div className="px-6 sm:container sm:mx-auto py-[8ch] lg:flex lg:justify-between space-y-6 lg:space-y-0">
       <div className="space-y-6">
         <h1 className="header">
-          let's work & connect <br />
-          <span className="gradient-text">together.</span>
+          Let's Work & Connect <br />
+          <span className="gradient-text">Together.</span>
         </h1>
         <p className="para lg:leading-9">We hope we can work together to create any of your <br />
           visions into a reality.

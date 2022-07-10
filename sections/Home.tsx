@@ -5,8 +5,8 @@ export const Home = () => (
   <div className='flex flex-col lg:flex-row'>
     <div className='space-y-10 lg:basis-[60%]'>
       <h1 className='header'>
-        meet the new <span className='gradient-text'>digital</span>{" "}
-        age.
+        Meet the New <span className='gradient-text'>Digital</span>{" "}
+        Age.
       </h1>
       <p className='para lg:leading-[2.7rem]'>
         Say 👋 to Flow Studio, intentionally creating & designing unique experiences for our customers.
