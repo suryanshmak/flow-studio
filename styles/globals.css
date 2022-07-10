@@ -49,4 +49,8 @@ html,
     @apply border-[1px] border-neutral-500 py-3 px-4 bg-[transparent] rounded-lg placeholder-neutral-800 w-full outline-none;
 }
 
+.burger-line {
+    @apply h-[2px] w-[32px] bg-white rounded transition-all;
+}
+
 @tailwind utilities;
