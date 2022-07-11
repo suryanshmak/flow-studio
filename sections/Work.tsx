@@ -11,7 +11,7 @@ export const Work = () => {
       if (e.deltaX) return;
       if (e.deltaY !== 0) {
         ref.current?.scrollTo({
-          left: e.deltaY > 0 ? (ref.current.scrollLeft + e.deltaY) : (ref.current.scrollLeft + e.deltaY),
+          left: e.deltaY > 0 ? (ref.current.scrollLeft + e.deltaY + 120) : (ref.current.scrollLeft + e.deltaY - 120),
           behavior: "smooth"
         });
       }

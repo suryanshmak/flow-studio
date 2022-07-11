@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Team = () => {
   const team = [
-    { name: "Jack", role: "UI Designer", src: "/team/jack.png" },
+    { name: "Jack", role: "UI designer", src: "/team/jack.png" },
     { name: "Lenny", role: "graphic designer", src: "/team/xodus.jpg" },
     { name: "Kilian", role: "backend dev", src: "/team/anonymous.png" },
     { name: "Suryansh", role: "frontend dev", src: "/team/suryansh.jpg" },
@@ -27,7 +27,7 @@ export const Team = () => {
             </div>
             <div>
               <p>{member.name}</p>
-              <p className="opacity-[0.4]">{member.role}</p>
+              <p className="opacity-[0.4] capitalize">{member.role}</p>
             </div>
           </div>
         ))}
