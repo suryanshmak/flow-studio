@@ -28,7 +28,7 @@ export const Contact = () => {
           visions into a reality.
         </p>
         <div className="flex items-center space-x-4">
-          <p className="text-lg">or join our discord:</p>
+          <p className="text-lg capitalize">or join</p>
           <Link href="https://discord.gg/E35daknsfh">
             <a>
               <FaDiscord className="text-[3ch]" />
