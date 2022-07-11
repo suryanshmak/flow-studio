@@ -20,8 +20,8 @@ export const Header = () => {
           </p>
           <LinkTo href="/#contact" text="Contact" {...{ className: "border-btn duration-400" }} />
         </nav>
-        <button className={`sm:hidden flex flex-col items-center z-50 ${active ? 'justify-center' : 'space-y-2'}`} onClick={() => setActive(prev => !prev)}>
-          <div className={`burger-line ${active && 'rotate-45 duration-400'}`} />
+        <button className={`sm:hidden flex flex-col items-center z-50 ${!active && 'space-y-2'}`} onClick={() => setActive(prev => !prev)}>
+          <div className={`burger-line ${active && 'rotate-45 duration-400 absolute'}`} />
           <div className={`burger-line ${active && 'hidden opacity-0 duration-400'}`} />
           <div className={`burger-line ${active && '-rotate-45 duration-400'}`} />
         </button>

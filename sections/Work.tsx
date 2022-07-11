@@ -23,7 +23,7 @@ export const Work = () => {
 
   return (
     <div className="py-16">
-      <div className="px-[8ch] flex items-center space-x-[8ch] overflow-x-scroll no-scrollbar" ref={ref}>
+      <div className="px-4 sm:px-[8ch] flex items-center space-x-[8ch] overflow-x-scroll no-scrollbar" ref={ref}>
         {workImgs.map((src, idx) => (
           <img key={`${idx}`} src={src} alt="" draggable={false} className="rounded-lg w-[360px] md:w-[420px] lg:w-[460px] xl:w-[520px]" />
         ))}
