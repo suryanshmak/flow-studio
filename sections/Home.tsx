@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { FaDiscord } from "react-icons/fa";
 
 export const Home = () => (
   <div className='flex flex-col lg:flex-row'>
@@ -12,9 +11,10 @@ export const Home = () => (
         Say 👋 to Flow Studio, intentionally creating & designing unique experiences for our customers.
       </p>
       <div className='flex items-center space-x-8'>
-        <button className='border-btn duration-400'>Order now</button>
-        <Link href="https://discord.gg/E35daknsfh">
-          <a><FaDiscord className='text-[3ch]' /></a>
+        <Link href="/#contact">
+          <a className="border-btn duration-400">
+            Order now
+          </a>
         </Link>
       </div>
     </div>
