@@ -22,7 +22,7 @@ export const Footer = () => {
       </div>
       <div className="flex items-center gap-4">
         {links.map(link => (
-          <Link href={link.href}>
+          <Link href={link.href} key={link.href}>
             <a>
               <link.icon className="text-[2ch]" />
             </a>
