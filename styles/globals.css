@@ -22,35 +22,30 @@ html,
 }
 
 .gradient-text {
-    background-image: linear-gradient(to bottom right, #24A3EB, #D7F0FF);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to bottom right, #24a3eb, #d7f0ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .border-btn {
-    @apply border-[1px] border-white px-6 p-2 rounded-md hover:bg-white hover:text-black transition-all;
-}
-
-.team {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  @apply border-[1px] border-white px-6 p-2 rounded-md hover:bg-white hover:text-black transition-all;
 }
 
 .header {
-    @apply text-[2rem] sm:text-[3rem] md:text-[3.4rem] lg:text-[3.8rem] xl:text-[4.2rem] lg:leading-[4rem] xl:leading-[5rem] font-semibold select-none
+  @apply text-[2rem] sm:text-[3rem] md:text-[3.4rem] lg:text-[3.8rem] xl:text-[4.2rem] lg:leading-[4rem] xl:leading-[5rem] font-semibold select-none;
 }
 
 .para {
-    @apply text-[1rem] md:text-[1.25rem] xl:text-[1.4rem] tracking-wider;
+  @apply text-[1rem] md:text-[1.25rem] xl:text-[1.4rem] tracking-wider;
 }
 
 .input {
-    @apply border-[1px] border-neutral-500 py-3 px-4 bg-[transparent] rounded-lg placeholder-neutral-700 w-full outline-none;
+  @apply border-[1px] border-neutral-500 py-3 px-4 bg-[transparent] rounded-lg placeholder-neutral-700 w-full outline-none;
 }
 
 .burger-line {
-    @apply h-[2px] w-[32px] bg-white rounded transition-all;
+  @apply h-[2px] w-[32px] bg-white rounded transition-all;
 }
 
 @tailwind utilities;
