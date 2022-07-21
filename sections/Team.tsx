@@ -24,7 +24,7 @@ export const Team = () => {
           meet our team
         </h1>
         <p className="sm:text-lg">
-          a powerful, communicative team providing top-notch services that bring
+          A powerful, communicative team providing top-notch services that bring
           clients back.
         </p>
       </div>
