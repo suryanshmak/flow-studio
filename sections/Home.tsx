@@ -16,7 +16,7 @@ export const Home = () => (
         </Link>
       </div>
     </div>
-    <div className="w-[90%] md:w-[520px] lg:w-[640px] xl:w-[840px] h-[400px] grid place-items-center relative mr-4">
+    <div className="w-full sm:w-[90%] md:w-[520px] lg:w-[640px] xl:w-[840px] h-[400px] grid place-items-center relative mr-4">
       <video
         src="/flowstudio.mp4"
         autoPlay
@@ -28,7 +28,7 @@ export const Home = () => (
       <img
         src="/flow-studio.svg"
         alt=""
-        className="h-[640px] xl:h-[400px] absolute right-[-4ch] top-0 sm:top-[-4ch] xl:top-12"
+        className="h-[640px] xl:h-[400px] absolute right-[-4ch] top-[-8ch] sm:top-[-4ch] xl:top-12"
       />
     </div>
   </div>
