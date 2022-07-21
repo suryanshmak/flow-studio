@@ -7,7 +7,7 @@ export const Team = () => {
     { name: 'Kilian', role: 'backend dev', src: '/team/anonymous.png' },
     { name: 'Suryansh', role: 'frontend dev', src: '/team/suryansh.jpg' },
     { name: 'Noah', role: '3D designer', src: '/team/anonymous.png' },
-    { name: 'Neesh', role: 'backend dev', src: '/team/neesh.jpg' },
+    { name: 'Sahil', role: 'backend dev', src: '/team/sahil.png' },
   ]
 
   return (
