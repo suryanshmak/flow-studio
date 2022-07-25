@@ -4,9 +4,9 @@ export const Team = () => {
   const team = [
     { name: 'Jack', role: 'UI designer', src: '/team/jack.png' },
     { name: 'Lenny', role: 'graphic designer', src: '/team/xodus.jpg' },
-    { name: 'Kilian', role: 'backend dev', src: '/team/anonymous.png' },
+    { name: 'Kilian', role: 'backend dev', src: '/team/kilian.jpg' },
     { name: 'Suryansh', role: 'frontend dev', src: '/team/suryansh.jpg' },
-    { name: 'Noah', role: '3D designer', src: '/team/anonymous.png' },
+    { name: 'Noah', role: '3D designer', src: '/team/noah.jpg' },
     { name: 'Sahil', role: 'backend dev', src: '/team/sahil.png' },
   ]
 

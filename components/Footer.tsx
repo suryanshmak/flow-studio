@@ -5,7 +5,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 
 export const Footer = () => {
   const links = [
-    { href: 'https://twitter.com/heyflowstudio_', icon: FaTwitter },
+    { href: 'https://twitter.com/flowstudio_', icon: FaTwitter },
     { href: 'mailto:heyflowstudio@gmail.com', icon: AiOutlineMail },
   ]
   return (
