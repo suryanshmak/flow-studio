@@ -14,7 +14,7 @@ const App: NextPage = () => {
       <div>
         <Header />
         <div
-          className="px-8 sm:pl-[8ch] h-screen flex items-center my-12"
+          className="px-8 sm:pl-[8ch] h-screen flex items-center mt-12"
           id="home"
           style={{
             boxShadow: 'inset 0 -80px 80px -10px rgba(45, 179, 255, 0.05)',

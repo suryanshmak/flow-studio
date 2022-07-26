@@ -21,7 +21,7 @@ export const HorizontalScroll = ({children}: {children: any}) => {
     }, [])
 
     return (
-        <div className="px-4 sm:px-[8ch] flex items-center space-x-[8ch] overflow-x-scroll no-scrollbar" ref={ref}>
+        <div className="px-4 sm:px-[8ch] flex items-center space-x-8 md:space-x-[8ch] overflow-x-scroll no-scrollbar" ref={ref}>
             {children}
         </div>
     )

@@ -28,7 +28,7 @@ export const Home = () => (
       <img
         src="/flow-studio.svg"
         alt=""
-        className="h-[640px] xl:h-[400px] absolute right-[-4ch] top-[-8ch] sm:top-[-4ch] xl:top-12"
+        className="h-[640px] absolute right-24 lg:right-[-8ch] top-[-8ch] sm:top-[-4ch] xl:top-[-8ch]"
       />
     </div>
   </div>
