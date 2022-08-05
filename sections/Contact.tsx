@@ -18,7 +18,7 @@ export const Contact = () => {
         </h1>
         <p className="para lg:leading-9">
           We hope we can work together to create any of your <br />
-          visions into a reality.
+          visions into reality.
         </p>
         <div className="flex items-center space-x-4">
           <p className="text-lg capitalize">or join</p>

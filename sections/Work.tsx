@@ -1,14 +1,16 @@
-import React, { useEffect, useRef } from "react";
+import Link from "next/link";
 import { HorizontalScroll } from "../components/HorizontalScroll";
 
 export const Work = () => {
-  const workImgs = ["/work/img1.png", "/work/img2.png", "/work/img3.png", "/work/img4.png", "/work/img5.png"];
+  const hrefs = ['https://tunednotify.com/', '/', 'https://daniellefarage.com/', '/', 'https://flipresell.com/'];
 
   return (
-    <div className="py-8">
+    <div className="py-8 cursor-pointer">
       <HorizontalScroll>
-        {workImgs.map((src, idx) => (
-          <img key={`${idx}`} src={src} alt="" draggable={false} className="rounded-sm w-[360px] md:w-[420px] lg:w-[460px] xl:w-[520px] object-cover" />
+        {hrefs.map((href, idx) => (
+          <Link href={href}>
+            <img key={idx} src={`/work/img${idx + 1}.png`} alt="" draggable={false} className="rounded-sm w-[360px] md:w-[420px] lg:w-[460px] xl:w-[520px] object-cover" />
+          </Link>
         ))}
       </HorizontalScroll>
     </div>
